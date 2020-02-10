@@ -18,7 +18,7 @@ class VehiclesController < ApplicationController
   rescue StandardError => e
     flash.now[:alert] = "Error: #{e}"
   end
-  
+
   # GET /vehicles/1
   # GET /vehicles/1.json
   def show
